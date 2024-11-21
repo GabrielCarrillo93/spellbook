@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    position: sticky;
+    top: 0;
+    background-color: #020100;
+}
+
+h1{
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 1px 1px red;
+}
+
+@media screen and (430px < width){
+    header{
+        padding: 8px 40px 16px ;
+    }
+}

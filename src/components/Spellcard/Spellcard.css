@@ -1,0 +1,38 @@
+.spellcard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 2px solid rgb(160, 16, 16);
+}
+
+
+.spellcard h2{
+    font-size: 24px;
+    padding: 4px;
+}
+
+.level{
+    text-align: end;
+    font-size: 22px;
+    padding: 2px;
+}
+
+.button{
+    display: block;
+    grid-column: span 2;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(160, 16, 16);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

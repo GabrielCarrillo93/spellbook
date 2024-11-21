@@ -1,0 +1,25 @@
+.lista{
+    padding: 8px 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px 0;
+}
+
+li{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid rgb(160, 16, 16);
+}
+
+.active{
+    background-color: #f8f6f6;
+    color: rgb(14, 1, 1);
+}
